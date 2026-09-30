@@ -34,3 +34,11 @@ Only one small synthetic instance is supplied. There is no exact-solver baseline
 ## Author
 
 Adam El Akkaoui
+
+## Academic artefacts
+
+- [French academic report (PDF)](docs/academic-report-fr.pdf). No presentation or video was found.
+
+## Testing and limitations
+
+On Python 3.11, two tests passed for closed-tour distance and global-best preservation. The script completed and observed distance `14.54` on the seven-city example; the cleaned notebook validates. No exact solver, TSPLIB benchmark or statistical comparison was run. The portfolio copy corrects the separation of current/global-best solutions and local-search placement.
