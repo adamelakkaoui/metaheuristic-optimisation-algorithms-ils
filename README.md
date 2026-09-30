@@ -27,10 +27,6 @@ python src/ils_tsp.py
 python -m unittest discover -s tests -v
 ```
 
-## Limitations
-
-Only one small synthetic instance is supplied. There is no exact-solver baseline, TSPLIB benchmark, repeated-run distribution, or scalability experiment. Runtime and solution quality depend on the random seed and parameters.
-
 ## Author
 
 Adam El Akkaoui
@@ -41,4 +37,4 @@ Adam El Akkaoui
 
 ## Testing and limitations
 
-On Python 3.11, two tests passed for closed-tour distance and global-best preservation. The script completed and observed distance `14.54` on the seven-city example; the cleaned notebook validates. No exact solver, TSPLIB benchmark or statistical comparison was run. The portfolio copy corrects the separation of current/global-best solutions and local-search placement.
+On Python 3.11, two tests passed for closed-tour distance and global-best preservation. The script completed and observed distance `14.54` on the seven-city example; the cleaned notebook validates. The portfolio copy corrects current/global-best separation and local-search placement. Only one small synthetic instance is supplied; no exact solver, TSPLIB benchmark, repeated-run distribution, scalability experiment or claim of global optimality is included. Runtime and solution quality depend on the seed and parameters.
