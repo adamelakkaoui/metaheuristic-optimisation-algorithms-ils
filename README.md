@@ -31,7 +31,7 @@ Adam El Akkaoui
 
 ## Academic artefacts
 
-- [French academic report (PDF)](docs/academic-report-fr.pdf). No presentation or video was found.
+- [French academic report (PDF)](docs/academic-report-fr.pdf).
 
 ## Results, complexity and limitations
 
