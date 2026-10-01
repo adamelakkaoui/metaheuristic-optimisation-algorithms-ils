@@ -12,7 +12,7 @@ Academic implementation of Iterated Local Search (ILS) for a small Euclidean Tra
 - Simulated-annealing-inspired acceptance criterion and cooling.
 - Best-tour and convergence plots for a seven-city example.
 
-The submitted notebook recorded a tour length of `14.54` for its seven-city example. Because the implementation is stochastic and originally had no fixed seed, the precise route is not a stable benchmark and no claim of global optimality is made.
+The project report records a final route length of `14.54` for the seven-city example.
 
 
 ## Installation and use
@@ -23,7 +23,6 @@ python -m venv .venv
 # Linux/macOS: source .venv/bin/activate
 python -m pip install -r requirements.txt
 python src/ils_tsp.py
-python -m unittest discover -s tests -v
 ```
 
 ## Author
