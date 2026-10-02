@@ -12,15 +12,9 @@ Academic implementation of Iterated Local Search (ILS) for a small Euclidean Tra
 
 The project report records a final route length of `14.54` for the seven-city example.
 
-## Installation and use
+## Project files
 
-```bash
-python -m venv .venv
-# Windows: .venv\Scripts\activate
-# Linux/macOS: source .venv/bin/activate
-python -m pip install -r requirements.txt
-python src/ils_tsp.py
-```
+The ILS implementation is available in `notebooks/ils_original.ipynb` and `src/ils_tsp.py`.
 
 ## Author
 
