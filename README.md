@@ -1,5 +1,8 @@
 # Metaheuristic Optimisation Algorithms (ILS)
 
+![OPTIMISATION — Iterated Local Search](assets/portfolio-banner.svg)
+
+
 Academic implementation of Iterated Local Search (ILS) for a small Euclidean Travelling Salesperson Problem example.
 
 ## Implementation
