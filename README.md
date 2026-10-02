@@ -1,7 +1,5 @@
 # Metaheuristic Optimisation Algorithms (ILS)
 
-![OPTIMISATION — Iterated Local Search for a small TSP](assets/portfolio-banner.svg)
-
 Academic implementation of Iterated Local Search (ILS) for a small Euclidean Travelling Salesperson Problem example.
 
 ## Implementation
@@ -13,7 +11,6 @@ Academic implementation of Iterated Local Search (ILS) for a small Euclidean Tra
 - Best-tour and convergence plots for a seven-city example.
 
 The project report records a final route length of `14.54` for the seven-city example.
-
 
 ## Installation and use
 
